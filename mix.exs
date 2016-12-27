@@ -1,8 +1,8 @@
-defmodule Cards.Mixfile do
+defmodule Identicon.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :cards,
+    [app: :identicon,
      version: "0.1.0",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
@@ -27,8 +27,6 @@ defmodule Cards.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [
-      {:ex_doc, "~> 0.14.5"}
-    ]
+    []
   end
 end
